@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/pnguyen/Learning/Test/target/scala-2.13/test_2.13-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/JSONProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/JSONProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/JSONProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/JSONProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/DataProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/DataProcessor.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/DayPriceData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/DayPriceData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Implicit$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/Implicit$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/DayPriceData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/DayPriceData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/DataProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/DataProcessor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main/Implicit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/pnguyen/Learning/Test/target/scala-2.13/classes/Main/Implicit.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
