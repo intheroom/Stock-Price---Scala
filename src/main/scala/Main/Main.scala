@@ -1,9 +1,9 @@
 package Main
 
 object Main extends App {
-  val json_path = "AAPL.json"
+  val json_path = "1.txt"
   val input_start_date = "1997-10-10"
-  val input_end_date = "2018-02-10"
+  val input_end_date = "2018-32-32"
 
   // Preprocess date time format
   val date_format = new java.text.SimpleDateFormat("yyyy-MM-dd")

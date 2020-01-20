@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mJSONProcessorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA JSONProcessor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw a FileNotFoundException if the file is not found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw a JsonParseException if the file doesn't contain JSON[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw a NoSuchElementException if the JSON is not correctly formatted[0m[0m

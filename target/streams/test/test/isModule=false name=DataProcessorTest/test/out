@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mDataProcessorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA data filtering[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should Filter data from the beginning of the start date to the end of the end date[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAverage opening price computation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMin opening price computation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMax opening price computation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMoving closing price computation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLinearly moving closing price computation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m

@@ -14,7 +14,7 @@ object DataProcessor {
   }
 
   def filterData(data: List[DayPriceData], start_date: java.util.Date, end_date: java.util.Date): List[DayPriceData] = {
-    data.filter(x => x.getDate.compareTo(start_date) >= 0 && x.getDate.compareTo(end_date) < 0)
+    data.filter(x => x.getDate.compareTo(start_date) >= 0 && x.getDate.compareTo(end_date) <= 0)
   }
 
   def computeOpeningPriceAvg(data: List[DayPriceData]): Double = {
