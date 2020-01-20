@@ -3,22 +3,25 @@ package Main
 import play.api.libs.json.{JsPath, Reads}
 import play.api.libs.functional.syntax._
 
-case class DayPriceData(var date: String,
-                        var open: Double,
-                        var close: Double) {
-  val m_format = new java.text.SimpleDateFormat("yyyy-MM-dd")
-  var m_date: java.util.Date = m_format.parse(date)
-  var m_open: Double = open
-  var m_close: Double = close
-
+class DayPriceData(var date: java.util.Date, var open: Double, var close: Double) {
   override def toString: String = {
-    "Date: " + m_date.toString + " Open Price: " + m_open.toString + " Close Price: " + m_close.toString
+    "Date: " + date.toString + " Open Price: " + open.toString + " Close Price: " + close.toString
   }
+
+  def getDate: java.util.Date = date
+  def getOpeningPrice: Double = open
+  def getClosingPrice: Double = close
+
 }
 
-object Implicit {
+object DayPriceData {
+  def apply(date: String, open: Double, close: Double): DayPriceData = {
+    val format = new java.text.SimpleDateFormat("yyyy-MM-dd")
+    new DayPriceData(format.parse(date), open, close)
+  }
+
   implicit def DayPriceDataReads(column_names:List[String]): Reads[DayPriceData] = (
-      (JsPath \ column_names.indexOf("Date")).read[String] and
+    (JsPath \ column_names.indexOf("Date")).read[String] and
       (JsPath \ column_names.indexOf("Open")).read[Double] and
       (JsPath \ column_names.indexOf("Close")).read[Double]
     ) (DayPriceData.apply _)
